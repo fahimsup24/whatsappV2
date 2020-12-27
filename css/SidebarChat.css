@@ -1,0 +1,28 @@
+.sidebarChat {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.sidebarChat:hover {
+  background: #e7e7e7;
+}
+
+.sidebarChat__time {
+  position: absolute;
+  right: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.sidebarChat__info {
+  margin-left: 10px;
+}
+
+.sidebarChat__info > h3 {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
